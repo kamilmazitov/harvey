@@ -3,7 +3,7 @@ require "bundler/setup"
 require "dotenv/load"
 require "harvesting"
 require_relative '../lib/harvey.rb'
-require_relative '../lib/harvey/harvey_project_fetcher.rb'
+require_relative '../lib/harvey/harvey_fetcher.rb'
 
 require "irb"
 IRB.start

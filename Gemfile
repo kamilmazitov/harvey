@@ -7,6 +7,7 @@ gem 'rake'
 gem 'dotenv'
 gem 'rollbar'
 gem 'forwardable'
+gem 'slack-incoming-webhooks'
 
 group :development do
   gem "bundler-audit", require: false
